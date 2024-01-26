@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/3.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "100 Days of Code in Python",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Collaboration to create a beginner friendly course to help explain Python Programming and its concepts.",
+    url: "https://github.com/hamzaiftkhar/100-Days-of-Code-with-Python",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Softing Algorithms Visualizer",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is a user friendly projectand help to provide visual representation of different Sorting Algorithms in a beautiful way.",
+    url: "https://github.com/hamzaiftkhar/Sorting-Algorithm-visualizer",
   },
   {
-    title: "My Resume Site",
+    title: "Teacher Portal using C++", 
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+      "Created a highly efficient Teacher Portal using C++ for effective grading system.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "RC-Bluetooth-Robotic-Car-Using-Arduino",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "The project aims to create a remote control interface for a robotic car using Bluetooth technology.",
+    url: "https://github.com/hamzaiftkhar/RC-Bluetooth-Robotic-Car-Using-Arduino",
   },
 ];
 
@@ -60,7 +60,9 @@ const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div
+        style={{ display: "flex", flexDirection: "row", paddingTop: "3rem", paddingLeft: "3rem" }}
+      >
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
