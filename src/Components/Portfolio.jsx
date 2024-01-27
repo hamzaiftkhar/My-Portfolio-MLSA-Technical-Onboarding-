@@ -43,7 +43,7 @@ const projectList = [
     url: "https://github.com/hamzaiftkhar/Sorting-Algorithm-visualizer",
   },
   {
-    title: "Teacher Portal using C++", 
+    title: "Teacher Portal using C++",
     description:
       "Created a highly efficient Teacher Portal using C++ for effective grading system.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
@@ -66,8 +66,17 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              borderRadius: "10px",
+              boxShadow: "0 0 10px 0 rgba(0,0,0,0.2)",
+              border: "1px solid #ddd",
+              padding: "5px",
+            }}
             alt={imageAltText}
+            className="slideInLeft"
           />
         </div>
         <div className="container">
